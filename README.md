@@ -7,6 +7,8 @@ Loadlibrary can be replace by a manual mapper implementation to further disguise
 Function types are automatically deduced, and a structure object is generated that automatically accepts parameters, all that is required is a 
 underscore pre-pended to the functions name. 
 
+All functions go through a single dispatcher function, further obscuring functionality.
+
 ## Example Usage:
 ```
 	WINDOWS_IMPORT_HIDE(MessageBoxA, "User32.dll");
