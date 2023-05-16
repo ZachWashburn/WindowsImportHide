@@ -8,7 +8,7 @@ Function types are automatically deduced, and a structure object is generated th
 underscore pre-pended to the functions name. 
 
 ## Example Usage:
-[code]
+```
 	WINDOWS_IMPORT_HIDE(MessageBoxA, "User32.dll");
 	_MessageBoxA(_GetActiveWindow(), XorStr("Hello!"), XorStr("This is a Message Box!"), MB_OK);
-[/code]
+```
